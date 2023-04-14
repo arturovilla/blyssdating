@@ -16,28 +16,33 @@ function Navbar() {
           <div className='hidden sm:flex'>
             <ul className='flex'>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg'>Mission</li>
+                <li className='ml-10 hover:border-b text-lg py-1'>Mission</li>
               </Link>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg'>Product</li>
+                <li className='ml-10 hover:border-b text-lg py-1'>Product</li>
               </Link>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg'>Values</li>
+                <li className='ml-10 hover:border-b text-lg py-1'>Values</li>
               </Link>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg'>Pre-Register</li>
+                <li className='ml-10 hover:border-b text-lg py-1'>Pre-Register</li>
               </Link>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg'>Contact Us</li>
+                <li className='ml-10 hover:border-b text-lg py-1'>Contact Us</li>
               </Link>
               <Link href="#">
-                <li className='ml-10 hover:border-b text-lg bg-[#FFA15C] text-white'>Donate</li>
+                <li className='ml-10 hover:border-b text-lg bg-[#FFA15C] text-white px-5 py-1 rounded-2xl'>Donate</li>
               </Link>
             </ul>
           </div>
           {/* mobile menu icon*/}
-          <div onClick={handleNav} className='sm:hidden cursor-pointer pl-20'> 
-            <AiOutlineMenu size={20}/>
+          <div className='sm:hidden flex justify-between items-center h-full w-full'>
+            <Link href="#">
+              <p className=' text-lg bg-[#FFA15C] text-white px-5 py-1 rounded-2xl'>Donate</p>
+            </Link>
+            <div onClick={handleNav} className='sm:hidden pl-20 cursor-pointer'> 
+              <AiOutlineMenu size={20}/>
+            </div>
           </div>
         </div>
         {/* mobile menu */}
