@@ -11,6 +11,7 @@ function Navbar() {
     setMenuOpen(!menuOpen)
   }
   return (
+
     <nav className='fixed w-full h-24 '>
         <div className='flex justify-end items-center h-full w-full px-4 2xl:px-16'>
           <div className='hidden sm:flex'>
@@ -41,7 +42,7 @@ function Navbar() {
               <p className=' text-lg bg-[#FFA15C] text-white px-5 py-1 rounded-2xl'>Donate</p>
             </Link>
             <div onClick={handleNav} className='sm:hidden pl-20 cursor-pointer'> 
-              <AiOutlineMenu size={20}/>
+              <AiOutlineMenu size={25}/>
             </div>
           </div>
         </div>
@@ -95,6 +96,7 @@ function Navbar() {
           </div>
         </div>
     </nav>
+
   )
 }
 
