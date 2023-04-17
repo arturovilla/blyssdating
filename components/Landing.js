@@ -2,6 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import Logo from "../public/logo_t.png"
 import Homemvp from "../public/homesmvp.png"
+import Safety from "../public/safety_callout.png"
+import Datetype from "../public/date_type_callout.png"
 
 function Landing() {
   return (
@@ -21,19 +23,38 @@ function Landing() {
                 Bring life to your soul search with a modern spin on traditional dating!
             </h1>
         </div>
-        <div className="text-center flex justify-center items-center pt-5  ">
+        <div className="text-center flex justify-center items-center pt-5 ">
             <Link href="#">
                 <p className="text-lg bg-[#FFA15C] text-white px-6 py-1 rounded-2xl">Register</p>
             </Link>
         </div>
-        <div className="flex justify-center  mt-64">
+        <div className="flex justify-center  mt-64 px-0 md:pr-20  pb-5 md:pb-20">
+            <div className=" md:pl-20  md:mr-10">
+                <div className="flex justify-center px-2 ">
+                    <Image 
+                    src={Safety}
+                    alt="image of the blyss dating app"
+                    className="cursor-pointer"
+                    width="375"
+                    height="auto"/>
+                </div>
+                <p className="pl-2 md:pl-0 text-center text-md text-[#39698E] md:text-lg max-w-md ">Blyss implements key safety features that ensure confidentiality, protection, and honesty because your safety is our priority.​</p>
+                <div className="flex justify-center mt-32 ">
+                    <Image 
+                    src={Datetype}
+                    alt="image of the blyss dating app"
+                    className="cursor-pointer"
+                    width="375"
+                    height="auto"/>
+                </div>
+                <p className="pl-2 md:pl-0 text-center text-md text-[#39698E] md:text-lg max-w-md ">Blyss creates the best social dating environment by utilizing proprietary algorithms powered by our 3-Date Type model.​</p>
+            </div>
             <Image 
             src={Homemvp}
             alt="image of the blyss dating app"
             className="cursor-pointer"
             width="auto"
             height="550"/>
-
         </div>
 
     </div>
