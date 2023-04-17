@@ -7,7 +7,7 @@ import Datetype from "../public/date_type_callout.png"
 
 function Landing() {
   return (
-    <div className="pt-52 w-full ">
+    <div className="pt-52 w-full">
         <div className=" flex justify-center px-9 ">
             <Link href="#">
                 <Image 
@@ -28,7 +28,7 @@ function Landing() {
                 <p className="text-lg bg-[#FFA15C] text-white px-6 py-1 rounded-2xl">Register</p>
             </Link>
         </div>
-        <div className="flex justify-center  mt-64 px-0 md:pr-20  pb-5 md:pb-20">
+        <div className="flex justify-center  mt-64 px-0 md:pr-20  pb-5 md:pb-20 ">
             <div className=" md:pl-20  md:mr-10">
                 <div className="flex justify-center px-2 ">
                     <Image 
@@ -55,6 +55,10 @@ function Landing() {
             className="cursor-pointer"
             width="auto"
             height="550"/>
+        </div>
+        <div className="bg-[#39698E] flex flex-col items-center">
+            <h2 className="text-center text-[#76BAED] text-5xl px-10 pt-5 md:pt-0 leading-relaxed max-w-lg">Put the date back in dating!</h2>
+            <p className="text-center text-white text-md md:text-lg max-w-md pb-10 pt-2">Matchmaking is cool, but what happens after? Blyss has your answer. Enjoy exploring interactive, active, or dining venues with your compatible companion.</p>
         </div>
 
     </div>

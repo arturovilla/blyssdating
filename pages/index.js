@@ -12,7 +12,7 @@ export default function Home() {
     <div className=''>
       <Navbar/>
 
-      <div className='pt-24'>
+      <div className='pt-36'>
         <Landing/>
       </div>
       
