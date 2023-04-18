@@ -57,8 +57,8 @@ function Landing() {
             height="550"/>
         </div>
         <div className="bg-[#39698E] flex flex-col items-center">
-            <h2 className="text-center text-[#76BAED] text-5xl px-10 pt-5 md:pt-0 leading-relaxed max-w-lg">Put the date back in dating!</h2>
-            <p className="text-center text-white text-md md:text-lg max-w-md pb-10 pt-2">Matchmaking is cool, but what happens after? Blyss has your answer. Enjoy exploring interactive, active, or dining venues with your compatible companion.</p>
+            <h2 className="text-center text-[#76BAED] text-5xl px-10 pt-5 md:pt-0 font-semibold leading-normal max-w-lg">Put the date back in dating!</h2>
+            <p className="text-center text-white text-md md:text-lg max-w-md pb-10 pt-2">Matchmaking is cool, but what happens after? <br/>Blyss has your answer. Enjoy exploring interactive, active, or dining venues with your compatible companion.</p>
         </div>
 
     </div>
