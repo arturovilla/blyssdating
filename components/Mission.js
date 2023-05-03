@@ -3,7 +3,7 @@ import Link from "next/link"
 import Image from "next/image"
 import Mvpplaceholder from "../public/placeholder.png"
 import Interactmvp from "../public/interactivemvp.png"
-import Blyssshield from "../public/BlyssShield.png"
+import Blyssshield from "../public/blyssShield.png"
 
 
 function Mission() {
