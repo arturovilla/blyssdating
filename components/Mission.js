@@ -65,7 +65,7 @@ function Mission() {
                         width="300"
                         height="auto"/>
                     </div>
-                    <p className='text-center text-white md:text-xl w-[30rem] pt-10 '>View Blyss's in-app process that demonstrates how we facilitate your perfect date with an in-app experience unparalleled by other dating apps.</p>
+                    <p className='text-center text-white md:text-xl w-[30rem] pt-10 '>View Blyss&apos;s in-app process that demonstrates how we facilitate your perfect date with an in-app experience unparalleled by other dating apps.</p>
                     <Link href="#">
                         <p className='text-center hover:border-b text-lg bg-white text-[#B2B3EB] px-5 py-1 mt-5 rounded-2xl'>Donate</p>
                     </Link>
