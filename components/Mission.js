@@ -4,6 +4,9 @@ import Image from "next/image"
 import Mvpplaceholder from "../public/placeholder.png"
 import Interactmvp from "../public/interactivemvp.png"
 import Blyssshield from "../public/blyssShield.png"
+import Dates1 from "../public/datesdby_1.webp"
+import Dates2 from "../public/datesdby_2.webp"
+import Couplel from "../public/couple.webp"
 
 
 function Mission() {
@@ -44,6 +47,32 @@ function Mission() {
                 </div>
             </div>
         </div>
+        <div className=' flex justify-center'>
+            <div className='bg-[#B2B3EB] w-[95%] md:w-[75%] mt-36 mb-20 rounded-lg py-5'>
+                <h1 className='text-center font-bold text-5xl md:text-6xl text-white'>Dates Designed by You!</h1>
+                <div className=' flex flex-col items-center'>
+                    <div className="flex justify-center w-80 md:w-80  relative pt-28">
+                        <Image 
+                        src={Dates1}
+                        alt="image of the blyss dating app"
+                        className="cursor-pointer -rotate-12 z-0 absolute bottom-0 right-16"
+                        width="300"
+                        height="auto"/>
+                        <Image 
+                        src={Dates2}
+                        alt="image of the blyss dating app"
+                        className="cursor-pointer rotate-12 z-10 relative left-16"
+                        width="300"
+                        height="auto"/>
+                    </div>
+                    <p className='text-center text-white md:text-xl w-[30rem] pt-10 '>View Blyss's in-app process that demonstrates how we facilitate your perfect date -- in an in-app experience unparalleled by other dating apps.</p>
+                    <Link href="#">
+                        <p className='text-center hover:border-b text-lg bg-white text-[#B2B3EB] px-5 py-1 mt-5 rounded-2xl'>Donate</p>
+                    </Link>
+                </div>
+            </div>
+        </div>
+        
     </div>
   )
 }
