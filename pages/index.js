@@ -5,6 +5,8 @@ import styles from '@/styles/Home.module.css'
 import Navbar from '@/components/Navbar'
 import Landing from '@/components/Landing'
 import Mission from '@/components/Mission'
+import Product from '@/components/Product'
+import Values from '@/components/Values'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +21,14 @@ export default function Home() {
 
       <div className='pt-36'>
         <Mission/>
+      </div>
+
+      <div className='pt-36'>
+        <Product/>
+      </div>
+
+      <div className='pt-36'>
+        <Values/>
       </div>
 
     </div>

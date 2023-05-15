@@ -47,8 +47,8 @@ function Mission() {
                 </div>
             </div>
         </div>
-        <div className=' flex justify-center'>
-            <div className='bg-[#B2B3EB] w-[95%] md:w-[75%] mt-36 mb-20 rounded-lg py-5'>
+        <div className=' flex justify-center '>
+            <div className='bg-[#B2B3EB] w-[95%] md:w-[75%] mt-36 mb-15 rounded-lg py-5 shadow-xl'>
                 <h1 className='text-center font-bold text-5xl md:text-6xl text-white'>Dates Designed by You!</h1>
                 <div className=' flex flex-col items-center'>
                     <div className="flex justify-center w-80 md:w-80  relative pt-28">
