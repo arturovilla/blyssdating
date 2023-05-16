@@ -20,7 +20,7 @@ function Product() {
               alt=""
               />
               <h2 className="text-[#B2B3EB] text-2xl font-medium mt-2">Choose Your Date Type!</h2>
-              <p className="w-60 text-center">Choose between Interactive, Active, and Dining dates! Be adventurous with your match on an active date, enjoy a "hands on" date without breaking a sweat on an interactive date, or bond over a nice meal on a dining date!</p>
+              <p className="w-60 text-center">Choose between Interactive, Active, and Dining dates! Be adventurous with your match on an active date, enjoy a &ldquo;hands on&rdquo; date without breaking a sweat on an interactive date, or bond over a nice meal on a dining date!</p>
             </div>
             <div className=" flex flex-col items-center ">
               <Image
