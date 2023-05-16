@@ -14,7 +14,8 @@ function Values() {
             <Image
             src={Couple}
             width='auto'
-            height='550'/>
+            height='550'
+            alt=""/>
 
             <div className="flex w-full justify-between px-2 pt-8 pb-8">
                 <div className="text-center w-1/4">
@@ -44,23 +45,28 @@ function Values() {
                 <div className="bg-[#E3E3E3] flex w-[95%] items-center justify-between px-2 py-3 rounded-md shadow-lg mt-12">
                     <div>
                         <Image
-                        src={V1}/>
+                        src={V1}
+                        alt=""/>
                     </div>
                     <div>
                         <Image
-                        src={V2}/>
+                        src={V2}
+                        alt=""/>
                     </div>
                     <div>
                         <Image
-                        src={V3}/>
+                        src={V3}
+                        alt=""/>
                     </div>
                     <div>
                         <Image
-                        src={V4}/>
+                        src={V4}
+                        alt=""/>
                     </div>
                     <div>
                         <Image
-                        src={V5}/>
+                        src={V5}
+                        alt=""/>
                     </div>
 
                 </div>

@@ -17,6 +17,7 @@ function Product() {
               src={Mvp1}
               width='auto'
               height='550'
+              alt=""
               />
               <h2 className="text-[#B2B3EB] text-2xl font-medium mt-2">Choose Your Date Type!</h2>
               <p className="w-60 text-center">Choose between Interactive, Active, and Dining dates! Be adventurous with your match on an active date, enjoy a "hands on" date without breaking a sweat on an interactive date, or bond over a nice meal on a dining date!</p>
@@ -26,6 +27,7 @@ function Product() {
               src={Mvp2}
               width='auto'
               height='550'
+              alt=""
               />
               <h2 className="text-[#B2B3EB] text-2xl font-medium mt-2">Meet Your Matches!</h2>
               <p className="w-60 text-center">Match with someone that chose the same date type as you! Chat until you&#39;re #readytodate</p>
@@ -35,9 +37,10 @@ function Product() {
               src={Mvp3}
               width='auto'
               height='550'
+              alt=""
               />
               <h2 className="text-[#B2B3EB] text-2xl font-medium mt-2">Book Your Date!</h2>
-              <p className="w-60 text-center">Once you're ready to date, agree on the time and venue! After the date is booked with an agreed-upon time and venue, the chat function re-opens and you can get ready for your tailored date!</p>
+              <p className="w-60 text-center">Once you&#39;re ready to date, agree on the time and venue! After the date is booked with an agreed-upon time and venue, the chat function re-opens and you can get ready for your tailored date!</p>
             </div>
           </div>
         </div>
