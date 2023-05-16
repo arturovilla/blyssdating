@@ -7,13 +7,14 @@ import Landing from '@/components/Landing'
 import Mission from '@/components/Mission'
 import Product from '@/components/Product'
 import Values from '@/components/Values'
+import Prereg from '@/components/Prereg'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <div className=''>
-      <Navbar/>
+      {/* <Navbar/> */}
 
       <div className='pt-36'>
         <Landing/>
@@ -29,6 +30,10 @@ export default function Home() {
 
       <div className='pt-36'>
         <Values/>
+      </div>
+
+      <div className='pt-36'>
+        <Prereg/>
       </div>
 
     </div>

@@ -28,7 +28,7 @@ function Product() {
               height='550'
               />
               <h2 className="text-[#B2B3EB] text-2xl font-medium mt-2">Meet Your Matches!</h2>
-              <p className="w-60 text-center">Match with someone that chose the same date type as you! Chat until you're #readytodate</p>
+              <p className="w-60 text-center">Match with someone that chose the same date type as you! Chat until you&#39;re #readytodate</p>
             </div>
             <div className="flex flex-col items-center">
               <Image
