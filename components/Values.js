@@ -41,7 +41,7 @@ function Values() {
         <div className=" flex w-full justify-center mt-10">
             <div className=" flex flex-col items-center ">
                 <h1 className="text-5xl font-semibold text-[#FFA15C] mb-4">Venues</h1>
-                <p className="mt5 text-lg">With interactive, active, and dining venues, Blyss partners with prime locations in your city providing the best date experience.</p>
+                <p className="mt5 text-lg text-center px-2 ">With interactive, active, and dining venues, Blyss partners with prime locations in your city providing the best date experience.</p>
                 <div className="bg-[#E3E3E3] flex w-[95%] items-center justify-between px-2 py-3 rounded-md shadow-lg mt-12">
                     <div>
                         <Image

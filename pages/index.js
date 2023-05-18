@@ -8,6 +8,8 @@ import Mission from '@/components/Mission'
 import Product from '@/components/Product'
 import Values from '@/components/Values'
 import Prereg from '@/components/Prereg'
+import Founders from '@/components/Founders'
+import Footer from '@/components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -34,6 +36,14 @@ export default function Home() {
 
       <div className='pt-36'>
         <Prereg/>
+      </div>
+
+      <div className='pt-36'>
+        <Founders/>
+      </div>
+
+      <div className='pt-36'>
+        <Footer/>
       </div>
 
     </div>
